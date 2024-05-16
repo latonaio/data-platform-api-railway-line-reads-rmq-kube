@@ -1,0 +1,173 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "RAILWAY_LINE",
+	"api_type": "reads",
+	"RailwayLine": {
+		"RailwayLine": 1,
+		"RailwayLineType": "TEST",
+		"RailwayLineOwner": 1,
+		"RailwayLineOwnerBusinessPartnerRole": "SHOP",
+		"Brand": 1,
+		"PersonResponsible": "TEST",
+		"URL": "https://test.co.jp",
+		"ValidityStartDate": "2024-04-01",
+		"ValidityEndDate": "9999-12-31",
+		"DepartureStationOfOutboundLine": 1,
+		"DestinationStationOfOutboundLine": 101,
+		"Description": "Test RailwayLine",
+		"LongText": "Test RailwayLine Long Text",
+		"Introduction": "Test RailwayLine Introduction",
+		"Project": null,
+		"WBSElement": null,
+		"Tag1": "",
+		"Tag2": "",
+		"Tag3": "",
+		"Tag4": "",
+		"CreationDate": "",
+		"CreationTime": "",
+		"LastChangeDate": "",
+		"LastChangeTime": "",
+		"CreateUser": 401,
+		"LastChangeUser": 401,
+		"IsReleased": null,
+		"IsMarkedForDeletion": null,
+		"HeaderDoc": [
+			{
+				"DocType": "",
+				"DocVersionID": null,
+				"DocID": "",
+				"FileExtension": "",
+				"FileName": "",
+				"FilePath": "",
+				"DocIssuerBusinessPartner": null
+			}
+		],
+		"Partner": [
+			{
+				"PartnerFunction": "",
+				"BusinessPartner": null,
+				"BusinessPartnerFullName": "",
+				"BusinessPartnerName": "",
+				"Organization": "",
+				"Country": "",
+				"Language": "",
+				"Currency": "",
+				"ExternalDocumentID": "",
+				"AddressID": null,
+				"EmailAddress": ""
+			}
+		],
+		"ExpressType": [
+			{
+				"ExpressType": "",
+				"ValidityStartDate": "",
+				"ValidityEndDate": "",
+				"Description": "",
+				"LongText": "",
+				"Introduction": "",
+				"Project": null,
+				"WBSElement": null,
+				"Tag1": "",
+				"Tag2": "",
+				"Tag3": "",
+				"Tag4": "",
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": "",
+				"CreateUser": null,
+				"LastChangeUser": null,
+				"IsReleased": null,
+				"IsMarkedForDeletion": null
+			}
+		],
+		"StopStation": [
+			{
+				"ExpressType": "",
+				"RailwayLineStationID": null,
+				"StopStation": null,
+				"OrderNumberOnOutboundLine": null,
+				"ValidityStartDate": "",
+				"ValidityEndDate": "",
+				"Description": "",
+				"LongText": "",
+				"Introduction": "",
+				"Project": null,
+				"WBSElement": null,
+				"Tag1": "",
+				"Tag2": "",
+				"Tag3": "",
+				"Tag4": "",
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": "",
+				"CreateUser": null,
+				"LastChangeUser": null,
+				"IsReleased": null,
+				"IsMarkedForDeletion": null
+			}
+		],
+		"DepartureStation": [
+			{
+				"ExpressType": "",
+				"DepartureStation": null,
+				"RailwayLineStationID": null,
+				"ValidityStartDate": "",
+				"ValidityEndDate": "",
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": "",
+				"CreateUser": null,
+				"LastChangeUser": null,
+				"IsReleased": null,
+				"IsMarkedForDeletion": null
+			}
+		],
+		"DestinationStation": [
+			{
+				"ExpressType": "",
+				"DestinationStation": null,
+				"RailwayLineStationID": null,
+				"ValidityStartDate": "",
+				"ValidityEndDate": "",
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": "",
+				"CreateUser": null,
+				"LastChangeUser": null,
+				"IsReleased": null,
+				"IsMarkedForDeletion": null
+			}
+		],
+		"DptDstStation": [
+			{
+				"ExpressType": "",
+				"DepartureStation": null,
+				"DestinationStation": null,
+				"ValidityStartDate": "",
+				"ValidityEndDate": "",
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": "",
+				"CreateUser": null,
+				"LastChangeUser": null,
+				"IsReleased": null,
+				"IsMarkedForDeletion": null
+			}
+		]
+	},
+	"api_schema": "DPFMRailwayLineReads",
+	"accepter": [
+		"Header"
+	]
+}
